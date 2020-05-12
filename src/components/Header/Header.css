@@ -1,0 +1,24 @@
+.headerContainer img {
+    height: 80px;
+}
+
+.headerContainer {
+    text-align: center;
+}
+.headerContainer nav {
+    background-color: black;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    padding: 5px;
+
+}
+
+nav a:hover{
+    background-color: violet;
+}
