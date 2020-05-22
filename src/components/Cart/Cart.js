@@ -1,15 +1,12 @@
-import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
-import { UserContext } from '../../App';
-import { useAuth } from '../Login/useAuth';
+import React from 'react';
+// import { useAuth } from '../Login/useAuth';
 
 const Cart = (props) => {
 
 
-    // const user=useContext(UserContext);
-    // console.log(user);
-    const auth=useAuth();
-    console.log(auth);
+    
+    // const auth=useAuth();
+    // console.log(auth);
     
     
 

@@ -1,13 +1,11 @@
 import React, { createContext } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import Shop from './components/Shop/Shop';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Review from './components/Review/Review';
 import Inventory from './components/Inventory/Inventory';
@@ -19,7 +17,7 @@ import Shipment from './components/Shipment/Shipment';
 export const UserContext= createContext();
 
 function App() {
-  const user={name:"shakil",email:"shakil@gmail.com"};
+  // const user={name:"shakil",email:"shakil@gmail.com"};
   return (
     <div className="App">
       <AuthContextProvider>
@@ -32,7 +30,7 @@ function App() {
            <Route path="/orderReview">
              <Review></Review>
            </Route>
-           <Route path="/manage">
+           <Route path="/inventory">
              <Inventory></Inventory>
            </Route>
            <Route exact path="/">
